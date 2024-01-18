@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Sergio Tojo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+        .accordion-item {
+            background-color: rgb(20, 20, 20);
+            color: white;
+        }
+
+        .subtitle-accordion {
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand">Currículum Vitae</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!--Cuerpo-->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <!-- Tu foto en un estilo circular -->
+                <img src="./img/picture.jpeg" alt="Tu foto" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-4">
+                <!-- Descripciones -->
+                <h2>Sergio Daniel Tojo</h2>
+                <p class="text-justify mx-auto">Autodidacta, me gusta aprender sobre la programación, mejorar día a día
+                    mis hábilidades,
+                    realizando cursos online y poniendo en práctica mis conocimientos en el área laboral y en mi
+                    emprendimiento.</p>
+            </div>
+        </div>
+    </div>
+    <video src="..." class="object-fit-contain" autoplay></video>
+
+    <hr class="my-3">
+    <div class="mt-3 mb-3">
+        <h2 class="text-center" style="background-color: gray; color:white;">Trabajos - Gobierno de la ciudad de Buenos
+            Aires</h2>
+    </div>
+    <!-- Accordion - 1 -->
+    <div class="container mb-4 d-flex">
+        <div class="accordion col-md-6" id="accordion-1">
+            <div class="accordion-item  ">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                        style="background-color: rgb(179, 218, 219);">
+                        <strong>Analista de datos</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <strong>Noviembre 2020 - Enero 2024</strong>
+                        <ul>
+                            <li>Interpretación de datos, análisis de resultados.</li>
+                            <li>Desarrollo y testings de herramientas para otras áreas.</li>
+                            <li>Planificación, desarrollo e implementación en la base de datos.</li>
+                            <li>Armado y revisión de Dashboard.</li>
+                            <li>Sistematización de procesos y presentación de la información.</li>
+                            <li>Soporte a diferentes áreas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Habilidades
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <strong>Habilidades duras</strong><br>
+                        <div class="subtitle-accordion">Herramientas WorkSpace
+                            <ul class="list">
+                                <li>Google Sheet (Presentaciones, documentos, hojas de cálculos)</li>
+                                <ul>
+                                    <li>Fórmulas avanzadas</li>
+                                    <li>AppScript</li>
+                                    <li>AppSheet</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <strong>Habilidades blandas</strong><br>
+                        <div class="subtitle-accordion">Habilidades interpersonales
+                            <ul class="list">
+                                <ul>
+                                    <li>Comunicación efectiva</li>
+                                    <li>Resolutivo, dinámico</li>
+                                    <li>Trabajo en equipo</li>
+                                    <li>Adaptable, organizado</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion - 2 -->
+        <div class="accordion col-md-6" id="accordion-2">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne-2" aria-expanded="true" aria-controls="collapseOne"
+                        style="background-color: rgb(179, 218, 219);">
+                        <strong>Supervisor de cargas</strong>
+                    </button>
+                </h2>
+                <div id="collapseOne-2" class="accordion-collapse collapse" data-bs-parent="#accordion-2">
+                    <div class="accordion-body">
+                        <strong>Noviembre 2020 - Enero 2024</strong>
+                        <ul>
+                            <li>Líder de un grupo de 9 personas.</li>
+                            <li>Manejo de datos, plataformas, drives, cierres y análisis cuantitativos.</li>
+                            <li>Cruce de bases de datos y filtros para obtener la información requerida.</li>
+                            <li>Presentación de informes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo">
+                        Habilidades
+                    </button>
+                </h2>
+                <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordion-2">
+                    <div class="accordion-body">
+                        <strong>Habilidades duras</strong><br>
+                        <div class="subtitle-accordion">Herramientas WorkSpace
+                            <ul class="list">
+                                <li>Google Sheet (Presentaciones, documentos, hojas de cálculos)</li>
+                                <ul>
+                                    <li>Fórmulas avanzadas</li>
+                                    <li>AppScript</li>
+                                    <li>CRM del #147</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <strong>Habilidades blandas</strong><br>
+                        <div class="subtitle-accordion">Habilidades interpersonales
+                            <ul class="list">
+                                <ul>
+                                    <li>Liderazgo</li>
+                                    <li>Toma de decisiones</li>
+                                    <li>Resolución de conflictos</li>
+                                    <li>Comunicación efectiva</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="accordion col-md" id="accordion-special">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree"
+                    style="background-color: rgb(219, 239, 240);">
+                    Referencias
+                </button>
+            </h2>
+            <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordion-special">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Florencia Gelaf - Coordinadora de RR.HH - 1134283234</li>
+                        <li>Renata Rey - Gerente de Contacto Directo y Cercanía - 1156038286</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-3">
+    <div class="mt-3 mb-3">
+        <h2 class="text-center" style="background-color: gray; color:white; ">Estudios</h2>
+    </div>
+    <div class="card">
+        <img src="./logos/logo-3f.png" style="height: 7%; width: 7%; margin-top: 2px; margin-left:20px;"
+            class="card-img-top" alt="3 de Febrero TECNO">
+
+        <div class="card-body">
+            <h5 class="card-title">TECNO 3F</h5>
+            <p class="card-text">Curso de PHP | Finalizado | Agosto 2023 - Diciembre 2023</p>
+            <a href="./certificados/certificado - 3F.pdf" download target="_blank"><strong>Certificado</strong></a>
+
+        </div>
+        <img src="./logos/ONE-Oracle Next Education.png" style="height: 4%; width: 4%; margin-left:20px;"
+            class="card-img-top" alt="One-Oracle Next Education">
+        <div class="card-body">
+            <h5 class="card-title">ONE-Oracle Next Education</h5>
+            <p class="card-text">Web Full Stack Junior | Finalizado | Marzo 2022- Diciembre 2022</p>
+            <a href="./certificados/certificado - Alura Latam.pdf" download
+                target="_blank"><strong>Certificado</strong></a>
+        </div>
+        <img src="./logos/ifts.jpg" style="height: 4%; width: 4%; margin-left:20px;" class="card-img-top"
+            alt="logo IFTS">
+        <div class="card-body">
+            <h5 class="card-title">Instituto de Formación Superior</h5>
+            <p class="card-text">Analista de Sistemas | Sin terminar | Marzo 2020 - Octubre 2021</p>
+        </div>
+        <img src="./logos/rlf.png" style="height: 4%; width: 4%; margin-left:20px;" class="card-img-top"
+            alt="logo Secundaria" target="_blank">
+        <div class="card-body">
+            <h5 class="card-title">Instituto Ramón Lorenzo Falcón (Secundario)</h5>
+            <p class="card-text">Mercantil con Orientación Contable e Impositiva | Finalizado |
+                Marzo 2009 - Diciembre 2013</p>
+        </div>
+    </div>
+    <hr class="my-3">
+    <div class="mt-3 mb-3">
+        <h2 class="text-center" style="background-color: gray; color:white; ">Conocimientos e idiomas</h2>
+    </div>
+
+    <div class="container skills">
+        <div class="row">
+            <!-- Primera columna -->
+            <div class="col-md-4">
+                <ul>
+                    <li>AppScript: Intermedio</li>
+                    <li>CSS: Intermedio</li>
+                    <li>C++: Intermedio</li>
+                    <li>HTML: Intermedio</li>
+                    <li>Adobe: Intermedio</li>
+                    <li>Microsoft Office: Avanzado</li>
+                </ul>
+            </div>
+            <!-- Línea divisoria vertical -->
+            <div class="col-md-2 d-flex align-items-center justify-content-end">
+                <hr class="vertical-line">
+            </div>
+
+            <!-- Segunda columna -->
+            <div class="col-md-6">
+                <ul>
+                    <li>Java: Básico</li>
+                    <li>Python: Básico</li>
+                    <li>Ruby: Básico</li>
+                    <li>SAP: Básico</li>
+                    <li>SQL: Básico</li>
+                    <li>PHP: Básico</li>
+                    <li>Java Script: Básico</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Línea divisoria vertical -->
+        <div class="col">
+            <hr class="horizontal-line">
+        </div>
+
+
+        <!-- Sección de idiomas -->
+        <div class="row ">
+            <div class="col-md-12 text-center">
+                <ul>
+                    <li>Inglés: Básico</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center" style="color:white; background-color: gray;">Por qué considerarme</h2>
+                <p class="text-justify mx-auto">
+                    <strong>Soy un apasionado programador autodidacta con experiencia en análisis de datos y supervisión
+                        de
+                        cargas. Mis habilidades técnicas incluyen el dominio de herramientas Workspace como Google
+                        Sheets,
+                        destacando en fórmulas y AppScript. Mi enfoque resolutivo y habilidades interpersonales, como la
+                        comunicación efectiva y el trabajo en equipo, son fundamentales en mi contribución a proyectos.
+                        Mi
+                        formación en Codo a Codo, ONE-Oracle Next Education, y estudios anteriores en el Instituto de
+                        Formación Superior respaldan mis destrezas en desarrollo web y análisis de sistemas.</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adjunto -->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center" style=" color:white; background-color: gray;">Currículum Vitae</h2>
+                <p class="text-justify mx-auto">
+                    <a href="./CV - Sergio Daniel Tojo.pdf" download><strong>¡Descargá mi CV!</strong></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br>
+    <footer>
+        <div class="row ">
+            <p class="text-justify mb-0" style="color:white;">
+                ¡Contactame!
+        </div>
+        </p>
+        <a class="link-IN" href="https://www.linkedin.com/sergio-tojo-388a81135/" target="_blank" alt="Logo Linkedin"><i
+                class="bi bi-linkedin"></i></a>
+        <a href="https://web.whatsapp.com/send?phone=+541126360377" class="link-WP" target="_blank">
+            <i class="bi bi-whatsapp"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwgHSBlKbRnzPZGxpQhMGGtZVzrVVJSSzTZdvZqtqZMVwfjnVmrWMWgrMDmJLhJVhXtnV"
+            class="link-Gmail" target="_blank">
+            <i class="bi bi-envelope-at-fill"></i></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

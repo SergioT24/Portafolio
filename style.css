@@ -1,0 +1,87 @@
+.bg {
+    background: linear-gradient(45deg, #566772, #4b6958, #534516);
+    height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: gradientAnimation 10s infinite alternate; 
+    border-radius: 20px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.rounded-circle {
+    width: 250px;
+    height: 250px;
+    object-fit:scale-down;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+a {
+    margin: 0 5px; 
+}
+.link-WP{
+    color: green;
+}
+.link-Gmail{
+    color: white;
+}
+.aparecer {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+.container .skills{
+
+}
+ .skills{
+    background-color: #6686a8; 
+    color: #FFFFFF; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.vertical-line {
+    border-left: 2px solid #ccc;
+    height: 100%;
+}
+.horizontal-line {
+    border-top: 2px solid #ccc;
+    width: 100%;
+}
+.col-md-2,
+.col-md-1 {
+    margin: 0;
+    padding: 0;
+}
