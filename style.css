@@ -62,9 +62,6 @@ a {
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
 }
-.container .skills{
-
-}
  .skills{
     background-color: #6686a8; 
     color: #FFFFFF; 
@@ -84,4 +81,7 @@ a {
 .col-md-1 {
     margin: 0;
     padding: 0;
+}
+div > .row{
+    text-align: justify;
 }
