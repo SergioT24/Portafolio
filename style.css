@@ -78,7 +78,7 @@ a {
     border-top: 2px solid #ccc;
     width: 100%;
 }
-video{
+div > video{
     text-align: center;
 }
 .col-md-2,
